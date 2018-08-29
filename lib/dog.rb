@@ -42,4 +42,12 @@ class Dog
     end
   end
 
+  def self.create(name, grade)
+    self.new
+    self.name = name
+    self.grade = grade
+    self.save
+    self
+  end
+
 end
