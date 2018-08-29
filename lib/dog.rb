@@ -42,10 +42,10 @@ class Dog
     end
   end
 
-  def self.create(name, grade)
+  def self.create(atributes)
     self.new
-    self.name = name
-    self.grade = grade
+    self.name = attributes[:name]
+    self.grade = attributes[:grade]
     self.save
     self
   end
