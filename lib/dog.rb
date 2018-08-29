@@ -42,7 +42,7 @@ class Dog
     end
   end
 
-  def update(attributes)
+  def update
 
   end
 
